@@ -22,6 +22,7 @@ public class History {
     private String origin;
     private String destination;
     private Date travelDateTime;
+    private Double fare;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
